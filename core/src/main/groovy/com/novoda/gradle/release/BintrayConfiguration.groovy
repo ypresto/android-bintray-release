@@ -30,7 +30,7 @@ class BintrayConfiguration {
                 issueTrackerUrl = extension.issueTracker
                 vcsUrl = extension.repository
 
-                licenses = extension.licences
+                licenses = extension.licenses
                 version {
                     name = extension.version
                 }

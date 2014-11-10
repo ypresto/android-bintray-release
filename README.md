@@ -73,7 +73,7 @@ The `publish` closure contains all these properties. The default values are empt
  * `groupId`: The group id to use for the upload.
  * `artifactId`: The artifact id to use.
  * `version`: A string with the version to use. Can't end with `-SNAPSHOT` because bintray doesn't accept snapshots.
- * `licences`: A list of license identifiers for the project. Identifiers can be found here: http://spdx.org/licenses/ and default value is `['Apache-2.0']`.
+ * `licenses`: A list of license identifiers for the project. Identifiers can be found here: http://spdx.org/licenses/ and default value is `['Apache-2.0']`.
  * `uploadName`: The display name for this package in bintray. If not set, the `artifactId` will be used for this.
  * `description`: A short description for this package in bintray.
  * `website`: A string with the url for the website of this project. The Github repo can be used here.

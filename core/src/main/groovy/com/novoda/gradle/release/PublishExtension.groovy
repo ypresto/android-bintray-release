@@ -8,7 +8,7 @@ class PublishExtension {
     String groupId
     String artifactId
     String version
-    String[] licences = ['Apache-2.0']
+    String[] licenses = ['Apache-2.0']
 
     String uploadName = ''
     String description
